@@ -123,7 +123,7 @@
           </div>
           <div class="mt-4 text-center">
             <button type="submit" class="btn btn-success me-2">수정 완료</button>
-            <a href="memberlist.jsp" class="btn btn-secondary">목록으로</a>
+            <a href="memberlistchangeingNameForStudy.jsp" class="btn btn-secondary">목록으로</a>
           </div>
         </form>
       </div>

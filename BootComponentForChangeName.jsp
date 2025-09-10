@@ -35,15 +35,7 @@
     <div class="form-container">
       <h3 class="form-title">
         <i class="bi bi-person-fill"></i> 회원 정보 입력
-      </h3>
-      <!-- <form class="needs-validation" novalidate action="submitForm.jsp" method="post" enctype="multipart/form-data">
-        <div class="row g-3">
-          <div class="col-md-6">
-            <label for="name" class="form-label">이름</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-            <div class="invalid-feedback">이름은 필수 항목입니다.</div>
-          </div> -->
-
+      </h3> 
           <form class = "needs-validation" novalidate action="submitFormForChangeName.jsp" method="post" enctype="multipart/form-data">
             <div class="row g-3">
               <div class="col-md-6">
@@ -52,7 +44,6 @@
                 <div class ="invalid-feedback">이름을 입력하세요.</div>
               </div>
             </div>
-          </div>
           <div class="col-md-6">
             <label for="email" class="form-label">이메일</label>
             <input type="email" class="form-control" id="email" name="email" required>

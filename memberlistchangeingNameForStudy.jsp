@@ -59,7 +59,7 @@
     rs = pstmt.executeQuery();
     while (rs.next()) {
 %>
-           <tr onclick="location.href='detail.jsp?id=<%= rs.getInt("id") %>'" style="cursor:pointer;">
+           <tr onclick="location.href='detailChangeNameForStudy.jsp?id=<%= rs.getInt("id") %>'" style="cursor:pointer;">
               <td><%= rs.getInt("id") %></td>
               <td><%= rs.getString("name") %></td>
               <td><%= rs.getString("email") %></td>
